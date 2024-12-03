@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocaditos | Dulce Alegría</title>
+    <link rel="icon" type="image/x-icon" href="../media/iconlogo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/Bocaditos.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #C6D6A1 !important;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+            <img class="sombra" src="../media/logo.png" alt="Logo" width="200" height="200" class="d-inline-block align-text-top">
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse texto-dulce" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Pasteles.html">Pasteles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Postres.html">Postres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Bocaditos.html">Bocaditos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#footer"> Contacto </a> 
+          </li>
+          <li class="nav-item dropdown" id="user-menu">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-user"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../pages/InicioSesion.html">Inicio de Sesión</a></li>
+              <li><a class="dropdown-item" href="../pages/Registro.html">Registro</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"> 
+            <a class="carrito" href="../pages/Delivery.html">
+              <i class="fa-solid fa-cart-shopping" style="color: #000000; margin-top: 13px;"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+  <div class="container mt-5">
+    <h1 class="d-flex justify-content-center mt-5" style="color: #EB68A1; text-decoration: underline">Bocaditos</h1>
+    <div id="alert-container"></div>
+    <section class="productos">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="../media/cupcake.jpg" class="card-img-top" alt="Cupcakes">
+                    <div class="card-body">
+                        <h5 class="card-title">CUPCAKE</h5>
+                        <p class="card-text">Delicioso manjar hecho con los mejores ingredientes, disfrutalo con el glaceado que más te guste</p>
+                        <p class="card-price">S/9.90</p>
+                        <a href="#" class="btn btn-warning mt-2 order-button color" >Ordenar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="../media/tartaletas.jpg" class="card-img-top" alt="Tartaletas">
+                    <div class="card-body">
+                        <h5 class="card-title">Tartaletas</h5>
+                        <p class="card-text">Tartaletas pequeñas rellenas de frutas frescas, crema pastelera o chocolate.</p>
+                        <p class="card-price">S/ 34.90</p>
+                        <a href="#" class="btn btn-warning mt-2 order-button color" >Ordenar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="../media/cheesecake.jpg" class="card-img-top" alt="Cheesecake">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheesecake</h5>
+                        <p class="card-text">Porciones individuales de cheesecake en diferentes sabores.</p>
+                        <p class="card-price">S/ 19.90</p>
+                        <a href="#" class="btn btn-warning mt-2 order-button color" >Ordenar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="card">
+                  <img src="../media/trufas.jpg" class="card-img-top" alt="Trufas">
+                  <div class="card-body">
+                    <h5 class="card-title">Trufas</h5>
+                    <p class="card-text">Pequeñas delicias de chocolate que se deshacen en la boca.</p>
+                      <p class="card-price">S/ 12.50</p>
+                      <a href="#" class="btn btn-warning mt-2 order-button color" >Ordenar Ahora</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="card">
+                  <img src="../media/canela.jpg" class="card-img-top" alt="Rollitos de Canela">
+                  <div class="card-body">
+                    <h5 class="card-title">Rollitos de Canela</h5>
+                    <p class="card-text">Porciones individuales de masa suave con canela y azúcar, glaseados.</p>
+                      <p class="card-price">S/ 29.90</p>
+                      <a href="#" class="btn btn-warning mt-2 order-button color" >Ordenar Ahora</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="card">
+                  <img src="../media/zanahoria.jpg" class="card-img-top" alt="Zanahoria">
+                  <div class="card-body">
+                    <h5 class="card-title">Snack's de Zanahoria</h5>
+                    <p class="card-text">Pastelitos de zanahoria en miniatura, ideales para un toque diferente.</p>
+                      <p class="card-price">S/ 12.50</p>
+                      <a href="#" class="btn btn-warning mt-2 order-button color" >Ordenar Ahora</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="card">
+                  <img src="../media/leche.jpg" class="card-img-top" alt="Panes de Leche">
+                  <div class="card-body">
+                    <h5 class="card-title">Panes de Leche</h5>
+                    <p class="card-text">Pequeños bollitos dulces, suaves y esponjosos, perfectos para cualquier hora del día.</p>
+                      <p class="card-price">S/ 29.90</p>
+                      <a href="#" class="btn btn-warning mt-2 order-button color" >Ordenar Ahora</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="card">
+                  <img src="../media/muffins.jpg" class="card-img-top" alt="Muffins">
+                  <div class="card-body">
+                    <h5 class="card-title">Muffins</h5>
+                    <p class="card-text">Variedades como arándano, plátano o chocolate, suaves y esponjosos.</p>
+                      <p class="card-price">S/ 12.50</p>
+                      <a href="#" class="btn btn-warning mt-2 order-button color" >Ordenar Ahora</a>
+                  </div>
+              </div>
+            </div>
+           <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="card">
+                  <img src="../media/Donas.jpg" class="card-img-top" alt="Donas">
+                  <div class="card-body">
+                    <h5 class="card-title">Donas</h5>
+                    <p class="card-text">Pequeñas donas glaseadas o rellenas de crema o mermelada.</p>
+                      <p class="card-price">S/ 29.90</p>
+                      <a href="#" class="btn btn-warning mt-2 order-button color" >Ordenar Ahora</a>
+                  </div>
+              </div>
+           </div>
+        </div>
+    </section>
+  </div>
+
+    <footer id="footer">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4">
+            <h5 class="mb-3" style="letter-spacing: 2px; color: #EB68A1;">Dulce Alegría</h5>
+            <p class="mb-4 texto-dulce" style="font-style: italic;">
+              "En donde estés, cada dulce momento es 
+              <br>
+              único con nosotros. Gracias por hacer de
+              <br>
+              Dulce y Alegría parte de tus celebraciones."
+            </p>
+            <h5 class="mb-2 " style="letter-spacing: 2px; color: #EB68A1; font-weight: bold;">Contacto</h5>
+            <div class="container">
+              <section class="mb-4">
+                <a class="btn text-white btn-floating m-1" style="background-color: #0866ff;" href="#footer"  role="button"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn text-white btn-floating m-1" style="background-color: #1d9bf0;" href="#footer"  role="button"><i class="fab fa-twitter"></i></a>
+                <a class="btn text-white btn-floating m-1" style="background-color: #ed2048;" href="#footer"  role="button"><i class="fab fa-instagram"></i></a>
+                <a class="btn text-white btn-floating m-1" style="background-color: #000000;" href="#footer"  role="button"><i class="fab fa-tiktok"></i></a>
+                <a class="btn text-white btn-floating m-1" style="background-color: #26d366;" href="#footer"  role="button"><i class="fab fa-whatsapp"></i></a>
+              </section>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="mb-3" style="letter-spacing: 2px; color: #EB68A1">Mapa del Sitio</h5>
+            <div class="mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d975.216938717923!2d-77.03439173038214!3d-12.121199688051727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDA3JzE2LjMiUyA3N8KwMDInMDEuNSJX!5e0!3m2!1ses!2spe!4v1717560423430!5m2!1ses!2spe" 
+              width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <h5 class="mb-0" style="letter-spacing: 2px; color: #EB68A1; font-weight: bold;">Métodos de Pago</h5>
+            <div class="d-flex flex-row bd-highlight mb-3">
+              <div class="p-2 bd-highlight flex-*-shrink-1"><img src="../media/visaicon.png" class="img-thumbnail"></div>
+              <div class="p-2 bd-highlight flex-*-shrink-1"><img src="../media/amexpicon.png" class="img-thumbnail"></div>
+              <div class="p-2 bd-highlight flex-*-shrink-1"><img src="../media/mastercardicon.png" class="img-thumbnail"></div>
+              <div class="p-2 bd-highlight flex-*-shrink-1"><img src="../media/pageficon.png" class="img-thumbnail"></div>
+            </div>
+            <h5 class="" style="letter-spacing: 2px; color: #EB68A1; font-weight: bold;">Libro de Reclamaciones</h5>
+            <div class="p-2 bd-highlight flex-*-shrink-1" style="width: 50%;"><img src="../media/librec.png" class="img-thumbnail"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+</body>
+</html>
